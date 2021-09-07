@@ -1,0 +1,85 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+	background-image: linear-gradient(to bottom right, #7057BD,#19132D, #070709);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+*{
+	font-family: "montserrat";
+}
+
+#container{
+	width: 300px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-style: solid;
+	border-color: #594E79;
+	border-width: 0.5px;
+	border-radius: 20px;
+}
+
+#welcome {
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	width: 100%;
+	justify-content:flex-end;
+}
+
+form{
+	
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: flex-start;
+	width: 270px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+img{
+	width: 100px;
+	height: 100px;
+
+}
+
+#row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	opacity: 0.8;
+
+}
+
+.input{
+	border-radius: 5px;
+	border-width: 0px; 
+	height: 30px;
+	margin-bottom: 10px;
+
+}
+
+#submit  {
+		border-radius: 100px;
+		background-color: #6027CE;
+		color: #FFFFFF;
+		border-width: 0px;
+		height: 30px;
+}
