@@ -1,7 +1,6 @@
 body{
 	width: 100vw;
 	height: 100vh;
-	background-color: red;
 	background-image: linear-gradient(to bottom right, #7057BD,#19132D, #070709);
 	display: flex;
 	justify-content: center;
